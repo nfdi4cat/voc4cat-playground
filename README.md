@@ -1,6 +1,6 @@
 # A repository to try out SKOS-vocabulary maintenance with Excel and GitHub
 
-This repository was created from the template [voc4cat-template](https://github.com/nfdi4cat/voc4cat-template)]
+This repository was created from the template [voc4cat-template](https://github.com/nfdi4cat/voc4cat-template).
 
 It uses the [voc4cat-tool](https://github.com/nfdi4cat/voc4cat-tool) and GitHub features like gh-actions, pull requests etc. to reduce the maintenance workload for contributors and editors.
 The template is maintained as part of the [NFDI4Cat](http://www.nfdi4cat.org) initiative.
