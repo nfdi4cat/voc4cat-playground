@@ -3,7 +3,7 @@
 # ==== General Configuration ====
 
 # Allow only a single vocabulary (default) or multiple vocabularies in the repository.
-single_vocab = true
+single_vocab = false
 
 # ==== Configuration for vocabulary "voc4cat" ====
 
