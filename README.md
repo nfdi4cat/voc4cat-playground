@@ -37,7 +37,7 @@ Here are the steps, for submitting updates in Excel including the git commands.
 
 - Get the Excel-vocabulary file
   - For an existing vocabulary, the latest version of the vocabulary is always available via github-pages.
-    - The general url is `https://{gh-org-name}.github.io/{repository-name}/{vocabulary-name}/{vocabulary-name}.xlsx`
+    - The general url is `https://{gh-org-name}.github.io/{repository-name}/{vocabulary-name}.xlsx`
     - For example here in nfdi4cat/voc4cat-playground the vocabulary `vocab_example` can be downloaded from [https://nfdi4cat.github.io/voc4cat-playground/vocab_example.xlsx](https://nfdi4cat.github.io/voc4cat-playground/vocab_example.xlsx)
   - For setting up a new vocabulary, use the xlsx-file from the templates-folder.
 - Make changes to the Excel file
