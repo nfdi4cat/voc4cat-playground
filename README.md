@@ -62,7 +62,7 @@ Here are the steps, for submitting updates in Excel including the git commands.
 
 Finally, when the proposed merge request is accepted, your changes will be integrated in the vocabularies in the folder `vocabularies`.
 
-**The playground is configured to require one approval before a pull request can be merged.** So the complete contribution workflow inlcuding approval can be tested. Please create an issue if would prefer that we change this setting to no approval.
+**The playground is configured to require one approval before a pull request can be merged.** So the complete contribution workflow including approval can be tested. Please create an issue if you would prefer us to change this setting to "no approval".
 
 See [inbox-excel-vocabs/README.md](inbox-excel-vocabs/README.md) for a minimal example how to test the submission process.
 
