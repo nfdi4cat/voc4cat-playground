@@ -37,7 +37,7 @@ Please strongly consider contributing to [voc4cat](https://github.com/nfdi4cat/v
 
 To contribute new concepts or collections or change existing ones, you may either submit your contributions as Excel/xlsx-file or (as an expert) as new/changed turtle file.
 
-Here are the steps, for submitting updates in Excel.
+Here are the steps for submitting updates in Excel.
 
 - Get the Excel/xlsx-vocabulary file
   - The latest version of the vocabulary is always available via github-pages.
