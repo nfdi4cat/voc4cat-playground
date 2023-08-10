@@ -1,4 +1,4 @@
-# Try out managing a SKOS-vocabulary with Excel & GitHub
+# Try SKOS-vocabulary management with Excel & GitHub
 
 This repository was created from the template [voc4cat-template](https://github.com/nfdi4cat/voc4cat-template).
 
