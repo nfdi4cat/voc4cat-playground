@@ -7,7 +7,7 @@
 # - build docs
 # - publish docs, vocabulary-turtle files and excel-file to gh-pages
 
-name: Build & Publish
+name: Publish
 on:
   push:
     tags:
@@ -32,6 +32,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v3
+        with:
+          # Using fetch-depth 0 is the only way to get all tags which are needed for building docs.
+          fetch-depth: 0
 
       - name: Checkout gh-pages branch to dir publish/
         uses: actions/checkout@v3
@@ -50,8 +53,11 @@ jobs:
           python -m pip install --upgrade pip setuptools wheel
 
           # install tagged version
-          python -m pip install git+https://github.com/nfdi4cat/voc4cat-tool.git@v0.7.0
+          python -m pip install git+https://github.com/nfdi4cat/voc4cat-tool.git@v0.7.8
           # python -m pip install git+https://github.com/nfdi4cat/voc4cat-tool.git@main
+
+          # install custom pylode 2.x
+          python -m pip install git+https://github.com/dalito/pyLODE.git@nfdi4cat-2.x
 
       - name: Set dynamic environment variables.
         run: |

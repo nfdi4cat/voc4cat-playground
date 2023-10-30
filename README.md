@@ -35,6 +35,9 @@ For all versions, multiple files are stored (see https://github.com/nfdi4cat/voc
 - Taking into account the above scheme, the url for the artifacts for the `dev` version in gh-pages is `https://{gh-org-name}.github.io/{repository-name}/dev/{vocabulary-name}/`
 - For example, in repository `nfdi4cat/voc4cat-template` the vocabulary `vocab_example` is documented at [https://nfdi4cat.github.io/voc4cat-template/dev/vocab_example/](https://nfdi4cat.github.io/voc4cat-template/dev/vocab_example/)
 
+In addition to the specific versions, an index page is generated that links to all vocabularies and the tagged releases.
+It is placed at the root of gh-pages (`https://{gh-org-name}.github.io/{repository-name}/`).
+
 ### Creating vocabularies for catalysis or catalytic reaction engineering
 
 Please strongly consider contributing to [voc4cat](https://github.com/nfdi4cat/voc4cat) instead of creating your own.
@@ -67,7 +70,7 @@ Here are the steps for submitting updates in Excel.
   - or why the proposed change may not fit.
 - If you need to fix something update the pull request branch. This will trigger the pipeline to run again.
 
-Finally, when the proposed merge request is accepted, your changes will be integrated in the vocabularies in the folder `vocabularies`. The vocabularies are stored in split form using one folder per vocabulary. Each concept, collection and concept scheme is stored in a separate file using the ID-part of the IRI as file name.
+Finally, when the proposed pull request is accepted, your changes will be integrated in the vocabularies in the folder `vocabularies`. The vocabularies are stored in split form using one folder per vocabulary. Each concept, collection and concept scheme is stored in a separate file using the ID-part of the IRI as file name.
 
 **The playground is configured to require one approval before a pull request can be merged.** So the complete contribution workflow including approval can be tested. Please create an issue if you would prefer us to change this setting to "no approval".
 
@@ -84,7 +87,7 @@ To discuss about the tool that converts Excel to SKOS in gh-actions of this temp
 
 ### Vocabularies
 
-- *List all contributors.*
+- *List all authors and contributors.*
 
 ### Voc4cat template
 
