@@ -44,6 +44,13 @@ gh_name = "unknown"
 orcid = ""
 ror_id = ""
 
+[[vocabs.vocab_example.id_range]]
+first_id = 21
+last_id = 2000
+gh_name = "markdoerr"
+orcid = "0000-0001-2345-9999"
+ror_id = "https://ror.org/999"
+
 # Continue with as many [[vocabs.vocab_example.idrange]] sections as needed.
 
 # More vocabularies can be configured by adding sections with appropriate name.
