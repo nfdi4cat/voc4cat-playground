@@ -51,3 +51,20 @@ ror_id = ""
 # [vocabs.othervocab.checks]
 # [vocabs.othervocab.prefix_map]
 # [[vocabs.othervocab.idrange]]
+
+[vocabs.biocatalysis_demo]
+id_length = 7
+permanent_iri_part = "https://example.org/voc4cat_biocatalysis/"
+
+[vocabs.biocatalysis_demo.checks]
+allow_delete = false
+
+[vocabs.biocatalysis_demo.prefix_map]
+v4c-bc = "https://example.org/voc4cat_biocatalysis/"
+
+[[vocabs.biocatalysis_demo.id_range]]
+first_id = 1
+last_id = 200
+gh_name = "markdoerr"
+orcid = "0000-0001-2345-9999"
+ror_id = "https://ror.org/999"
