@@ -54,13 +54,13 @@ ror_id = ""
 
 [vocabs.biocatalysis_demo]
 id_length = 7
-permanent_iri_part = "https://w3id.org/nfdi4cat/voc4cat_biocatalysis/"
+permanent_iri_part = "https://example.org/voc4cat_biocatalysis/"
 
 [vocabs.biocatalysis_demo.checks]
 allow_delete = false
 
 [vocabs.biocatalysis_demo.prefix_map]
-v4c-bc = "https://w3id.org/nfdi4cat/voc4cat_biocatalysis/"
+v4c-bc = "https://example.org/voc4cat_biocatalysis/"
 
 [[vocabs.biocatalysis_demo.id_range]]
 first_id = 1
