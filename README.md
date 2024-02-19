@@ -9,13 +9,14 @@ The template is maintained as part of the [NFDI4Cat](http://www.nfdi4cat.org) in
 
 ### Trying out the workflow
 
+
 All vocabularies based on this template have the same standard contribution process of
 
 - get and update the vocabulary file (xlsx),
 - submit a pull request with the updated file,
 - collaborate on the pull request with editors or other github users,
 
-After approval your pull request is ready to be merged by the editors. The merge will include your contribution into the SKOS-vocabulary file in the `vocabularies`-folder and it will also be reflected in the documentation that is automatically updated.
+After approval your pull request is ready to be merged by the editors. The merge will include your contribution into the SKOS-vocabulary file in the `vocabularies`-folder. Upon merge the corresponding documentation and a joined turtle file will be automatically built and published to gh-pages.
 
 The Excel/xlsx files submitted as pull request are automatically checked and (if all is good) converted to turtle.
 By using a vocabulary-specific configuration more thorough validation can be activated,
@@ -26,9 +27,9 @@ This allows independent work and avoids using the same ID repeatedly.
 
 The voc4cat-template implements automatic storage of different versions of the vocabularies in gh-pages:
 
- - `dev` - Directory with artifacts built from the most recent commit to the main branch.
- - `latest` - Directory with all files built for the latest release.
- - `vYYYY-MM-DD` (for example `v2023-08-16`) - Directory with all files built for the release with this tag.
+- `dev` - Directory with artifacts built from the most recent commit to the main branch.
+- `latest` - Directory with all files built for the latest release.
+- `vYYYY-MM-DD` (for example `v2023-08-16`) - Directory with all files built for the release with this tag.
 
 For all versions, multiple files are stored (see https://github.com/nfdi4cat/voc4cat-template/issues/11#issuecomment-1680592185 for details). The correct version string is automatically inserted to all build artifacts. For `dev`, the first eight characters of the commit hash are used as version (for example `v_fadfa5f9`).
 
@@ -91,7 +92,7 @@ To discuss about the tool that converts Excel to SKOS in gh-actions of this temp
 
 ### Voc4cat template
 
-- David Linke (ORCID: 0000-0002-5898-1820) - Initial setup of repository and CI/CD pipelines
+- David Linke (ORCID: 0000-0002-5898-1820) - Creator of this repository template and its GitHub workflows.
 
 ## License
 
@@ -101,7 +102,7 @@ All vocabularies in this repository are CC0 licensed, see [LICENSE](LICENSE) for
 
 ### Voc4cat template
 
-The template itself is CC0 licensed, see [LICENSE](LICENSE). Although there is no obligation, we nevertheless appreciate if our work is acknowledged in any derivative work.
+The template itself is CC0-1.0 licensed, see [LICENSE](https://github.com/nfdi4cat/voc4cat-template/blob/main/LICENSE). Although there is no obligation, we nevertheless appreciate if our work is acknowledged in any derivative work.
 
 ## Acknowledgement
 
