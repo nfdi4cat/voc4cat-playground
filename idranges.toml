@@ -67,4 +67,5 @@ first_id = 1
 last_id = 300
 gh_name = "markdoerr"
 orcid =   "0000-0003-3270-6895"
-ror_id = "https://ror.org/00r1edq15"
+
+ror_id = "https://ror.org/00r1edq15"  # full ROR URL required
