@@ -1,0 +1,25 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://w3id.org/nfdi4cat/voc4cat_biocat>
+    a skos:ConceptScheme ;
+    dcterms:created "2024-02-21"^^xsd:date ;
+    dcterms:creator <http://example.org/nfdi4cat/> ;
+    dcterms:hasPart <https://w3id.org/nfdi4cat/voc4cat_biocat0000010> ;
+    dcterms:identifier "voc4cat_biocat"^^xsd:token ;
+    dcterms:modified "2024-02-21"^^xsd:date ;
+    dcterms:publisher <http://example.org/nfdi4cat/> ;
+    owl:versionInfo "automatic" ;
+    skos:definition "A test vocabulary for the voc4cat biocatalysis "@en ;
+    skos:hasTopConcept
+        <https://w3id.org/nfdi4cat/voc4cat_biocat0000001> ,
+        <https://w3id.org/nfdi4cat/voc4cat_biocat0000002> ,
+        <https://w3id.org/nfdi4cat/voc4cat_biocat0000003> ;
+    skos:historyNote "https://orcid.org/0000-0003-3270-6895 Mark Doerr"@en ;
+    skos:prefLabel "A test vocabulary for the voc4cat biocatalysis"@en ;
+    dcat:contactPoint "Mark Doerr (orcid:0000-0003-3270-6895)" ;
+.
+
