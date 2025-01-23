@@ -1,4 +1,4 @@
-> **This repository is archived!** (2025-01-23) - See #12 for why and for alternatives.
+> **This repository is archived!** (2025-01-23) - See nfdi4cat/voc4cat-playground#12 for why and for alternatives.
 
 # Try SKOS-vocabulary management with Excel & GitHub
 
