@@ -1,3 +1,5 @@
+> **This repository is archived!** (2025-01-23) - See #12 for why and for alternatives.
+
 # Try SKOS-vocabulary management with Excel & GitHub
 
 This repository was created from the template [voc4cat-template](https://github.com/nfdi4cat/voc4cat-template).
